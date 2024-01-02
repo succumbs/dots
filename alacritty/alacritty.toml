@@ -1,0 +1,19 @@
+import = [
+"~/.config/alacritty/themes/github_dark.toml",
+]
+
+[window]
+startup_mode = "Windowed"
+dimensions = { columns = 115, lines = 30 }
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+dynamic_title = true
+opacity = 1
+
+
+[font]
+normal = { family = "Iosevka Nerd Font", style = "Regular" }
+size = 11.25
+
+[cursor]
+style = { shape = "Beam",  blinking = "On" }
