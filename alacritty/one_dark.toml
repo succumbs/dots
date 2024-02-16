@@ -1,0 +1,28 @@
+# based on: https://github.com/Binaryify/OneDark-Pro
+
+[colors.primary]
+background = "#282c34"
+foreground = "#abb2bf"
+
+[colors.normal]
+black = "#3f4451"
+white = "#d7dae0"
+red = "#e05561"
+yellow = "#d18f52"
+green = "#8cc265"
+blue = "#4aa5f0"
+cyan = "#42b3c2"
+magenta = "#c678dd"
+
+[colors.bright]
+black = "#4f5666"
+white = "#e6e6e6"
+red = "#ff616e"
+yellow = "#f0a45d"
+green = "#a5e075"
+blue = "#4dc4ff"
+cyan = "#4cd1e0"
+magenta = "#c678dd"
+
+[colors.cursor]
+cursor = "#abb2bf"
