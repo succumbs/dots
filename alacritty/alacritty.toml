@@ -1,7 +1,7 @@
 import = ["~/.config/alacritty/one_dark.toml"]
 
 [shell]
-program = "fish"
+program = "zsh"
 
 [window]
 dimensions = { columns = 110, lines = 30 }
