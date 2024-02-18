@@ -42,5 +42,5 @@ PKGS=(
 sudo pacman -S --noconfirm base-devel git && git clone https://aur.archlinux.org/paru-bin.git && (cd paru-bin && makepkg -si) && rm -r paru-bin
 
 for PKG in "${PKGS[@]}"; do
-    paru -S --noconfirm $PKG
+    paru -S --noconfirm "$PKG"
 done
