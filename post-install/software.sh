@@ -4,6 +4,7 @@ PKGS=(
     # - development
     "base-devel"
     "git"
+    "hugo"
     "python"
     "rust"
     "nim"
