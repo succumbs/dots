@@ -13,6 +13,6 @@ exts=(
     zhuangtongfa.material-theme
 )
 
-for ext in ${exts[@]}; do
-    code --install-extension $ext
+for ext in "${exts[@]}"; do
+    code --install-extension "$ext"
 done
