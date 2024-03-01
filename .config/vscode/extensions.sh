@@ -1,8 +1,24 @@
 #!/bin/bash
 
-file=".config/vscode/extensions.txt"
+exts=(
+    esbenp.prettier-vscode
+    github.copilot
+    github.copilot-chat
+    golang.go
+    icrawl.discord-vscode
+    kevinrose.vsc-python-indent
+    ms-python.debugpy
+    ms-python.isort
+    ms-python.python
+    ms-python.vscode-pylance
+    ms-vscode-remote.remote-wsl
+    nimsaem.nimvscode
+    ritwickdey.liveserver
+    rust-lang.rust-analyzer
+    tamasfe.even-better-toml
+    zhuangtongfa.material-theme
+)
 
-while IFS= read -r line; do
-    [ -z "$line" ] && continue
-    code --install-extension "$line"
-done < "$file"
+for ext in "${exts[@]}"; do
+    code --install-extension "$ext"
+done
